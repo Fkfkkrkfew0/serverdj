@@ -140,8 +140,8 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
+        
    message.author.sendEmbed(embed)
    
    }
@@ -152,8 +152,8 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
+        
    message.author.sendEmbed(embed)
    
    }
@@ -164,8 +164,8 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
+         
    message.author.sendEmbed(embed)
    
    }
@@ -176,8 +176,8 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
+        
    message.author.sendEmbed(embed)
    
    }
@@ -188,8 +188,8 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+        .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/87RhFH :scroll: **`)
+      
    message.author.sendEmbed(embed)
    
    }
@@ -425,7 +425,7 @@ client.on('message', message => {
       if (message.content === "-help-m") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *LEGEND_YT#4537  ')
+           .setFooter('By server DJ DaM  ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -437,7 +437,7 @@ client.on('message', message => {
       if (message.content === "-help-p") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *LEGEND_YT#4537  ')
+           .setFooter('By server DJ DaM  ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -1082,7 +1082,7 @@ client.on('message', message => {
         if(!message.channel.guild) return;
 let args = message.content.split(' ').join(" ");
 if (message.content.startsWith('-legend')){
-if (message.author.id !== '396958215377780747') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+if (message.author.id !== '484106911696945153') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
 m.sendMessage(args)
@@ -1131,7 +1131,7 @@ client.on('message', message => {
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
 			      .addField('``My Prefix``' , `[ - ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By | LEGEND_YT#4537 ')
+			      .setFooter('By server | DJ DaM ')
     })
 }
 });
@@ -1319,6 +1319,7 @@ function getValue(key, array) {
     }
   }
 }
+
 
  client.on('message', message => {
 	    var prefix = "-";
@@ -2505,7 +2506,7 @@ client.on('message', message => {
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
         .setTitle(`:small_orange_diamond: اضغط هنا `)
-        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=466256531998900246&permissions=8&scope=bot`)
+        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=515616512112066560&permissions=8&scope=bot`)
         .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
      message.channel.sendEmbed(embed);
        }
@@ -2626,7 +2627,7 @@ message.channel.send(`** ${men.username}, :credit_card: balance` + " is `" + `${
 if(message.content.startsWith(prefix + "daily")) {
   if(profile[message.author.id].lastDaily != moment().format('day')) {
     profile[message.author.id].lastDaily = moment().format('day')
-    profile[message.author.id].credits += 200
+    profile[message.author.id].credits += 999999999
      message.channel.send(`**${message.author.username} you collect your \`200\` :dollar: daily pounds**`)
 } else {
     message.channel.send(`**:stopwatch: | ${message.author.username}, your daily :yen: credits refreshes ${moment().endOf('day').fromNow()}**`)
