@@ -3010,10 +3010,11 @@ const channel = sWlc[message.guild.id].channel
       var Canvas = require('canvas')
       var jimp = require('jimp')
       
-      const w = ['w.png'];
+      const w = ['come.png'];
       
-	      const w = ['./img/come.png'];     
+	        
 	      
+
 	      
               let Image = Canvas.Image,
                   canvas = new Canvas(557, 241),
